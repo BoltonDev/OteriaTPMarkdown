@@ -3,7 +3,7 @@
 #### Etape 1 - Récupérer les informations du réseau
 On commence par récupérer les informations de notre réseau :
 
-```powershell
+```bash
 ipconfig
 ```
 
@@ -22,7 +22,7 @@ Carte réseau sans fil Wi-Fi :
 L'adresse IP du router correspond à la ligne `Passerelle par défaut`, donc dans notre cas `10.21.254.254`.
 
 Puis faire une requête `ping`:
-```powershell
+```bash
 ping 10.21.254.254
 ```
 
@@ -46,7 +46,7 @@ On reçoit une réponse à nos requêtes, donc on arrive à contacter le Router.
 #### Etape 3 - Ping le serveur DNS
 Maintenant qu'on arrive à contacter notre Router, il faut réussir à contacter un serveur DNS `8.8.8.8` pour celui de Google, ou `1.1.1.1` pour celui de Cloudfare :
 
-```powershell
+```bash
 ping 1.1.1.1
 ```
 
